@@ -13,7 +13,7 @@ public class exam1Controller {
 	private HttpSession session;
 	@RequestMapping("")
 	public String index() {
-	return "exam01";
+		return "exam01";
 	}
 	@RequestMapping("/exam-01")
 	public String ex1(String name) {
