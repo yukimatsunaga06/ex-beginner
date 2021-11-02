@@ -8,7 +8,7 @@ import org.springframework.web.bind.annotation.RequestMapping;
 
 @Controller
 @RequestMapping("/exam2")
-public class exam02Controller {
+public class Exam02Controller {
 	
 	@Autowired
 	private HttpSession session;
