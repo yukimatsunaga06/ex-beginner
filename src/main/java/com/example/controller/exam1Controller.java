@@ -19,5 +19,6 @@ public class exam1Controller {
 	public String ex1(String name) {
 		session.setAttribute("name", name);
 		return "exam-01";
+		
 	}
 }
