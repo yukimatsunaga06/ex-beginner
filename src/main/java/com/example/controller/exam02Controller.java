@@ -7,7 +7,7 @@ import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestMapping;
 
 @Controller
-@RequestMapping("/exam2")
+@RequestMapping("/ex2")
 public class Exam02Controller {
 	
 	@Autowired
@@ -18,7 +18,7 @@ public class Exam02Controller {
 		return "exam02";
 	}
 		
-	@RequestMapping("/exam02")
+	@RequestMapping("/exam-02")
 	public String exam02(Integer num1, Integer num2) {
 		session.setAttribute("num1", num1);
 		session.setAttribute("num2", num2);
